@@ -1,0 +1,16 @@
+  390  git status
+  391  git add .gitignore
+  392  git commit -m"Initial commit"
+  393  git checkout -b feature
+  394  git branch
+  395  git status
+  396  git add README.md
+  397  git commit -m"edit readme"
+  398  git push -u origin feature
+  399  ls -al
+  400  git commit --amend -m"edit readme amend"
+  401  git branch
+  402  git checkout main
+  403  git branch
+  404  git merge feature
+  405  git branch
